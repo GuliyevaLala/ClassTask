@@ -1,0 +1,64 @@
+*{
+ box-sizing: border-box;
+ font-size: 25px;
+ font-family: 'Courier New', Courier, monospace;
+ 
+}
+body{
+    background-color: rgb(201, 190, 176);
+}
+.container{
+    margin: 250px 500px;
+    width: 45vw;
+    height: 500px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+
+}
+.image-part{
+    padding: 35px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    background-color: tomato;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+
+
+}
+img{
+    border-radius: 50%;
+    height: 150px;
+}
+.level p{
+    margin: 50px 0;
+    background-color: black;
+    color: azure ;
+    opacity: 0.5;
+    text-align: center;
+    border-radius: 15px;
+    text-transform: capitalize;
+
+}
+
+.context{
+    margin-left: 50px;
+}
+
+.context .title p{
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+}
+.desc{
+    text-align:left;
+    font-weight: 600;
+
+}
+.footer{
+    margin-top: 150px;
+    text-align: end;
+}
